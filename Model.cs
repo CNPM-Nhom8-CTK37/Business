@@ -8,13 +8,6 @@ using Core;
 
 namespace Business
 {
-    enum SpFunction
-    {
-        Insert,
-        Update,
-        Delete
-    }
-
     public abstract class Model<T> where T : class, new()
     {
         /// <summary>
