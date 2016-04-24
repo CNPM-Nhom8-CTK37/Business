@@ -35,7 +35,7 @@ namespace Business
 
         protected override object[] Attributes()
         {
-            throw new NotImplementedException();
+            return new object[] { id, user_id, customer_id, total };
         }
     }
 }
