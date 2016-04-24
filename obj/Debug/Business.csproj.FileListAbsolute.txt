@@ -1,0 +1,7 @@
+E:\Desktop\QLCuaHangDienThoai\Project\Business\bin\Debug\Business.dll
+E:\Desktop\QLCuaHangDienThoai\Project\Business\bin\Debug\Business.pdb
+E:\Desktop\QLCuaHangDienThoai\Project\Business\bin\Debug\Core.dll
+E:\Desktop\QLCuaHangDienThoai\Project\Business\bin\Debug\Core.pdb
+E:\Desktop\QLCuaHangDienThoai\Project\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\Desktop\QLCuaHangDienThoai\Project\Business\obj\Debug\Business.dll
+E:\Desktop\QLCuaHangDienThoai\Project\Business\obj\Debug\Business.pdb
