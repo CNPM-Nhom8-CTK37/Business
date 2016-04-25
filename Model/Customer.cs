@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Business
 {
-    class Customer : Model<Customer>
+    public class Customer : Model<Customer>
     {
         /// <summary>
         /// Khóa chính

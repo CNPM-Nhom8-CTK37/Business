@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Business
 {
-    class Bill : Model<Bill>
+    public class Bill : Model<Bill>
     {
         /// <summary>
         /// Khóa chính của hóa đơn
