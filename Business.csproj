@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Auth.cs" />
+    <Compile Include="Model\Function.cs" />
+    <Compile Include="Model\Log.cs" />
     <Compile Include="Model\Bill.cs" />
     <Compile Include="Model\BillDetails.cs" />
     <Compile Include="Model\Customer.cs" />
