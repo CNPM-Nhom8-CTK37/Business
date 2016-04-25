@@ -38,6 +38,19 @@ namespace Business
         /// </summary>
         public DateTime created_at { get; }
 
+        /// <summary>
+        /// Tên hãng điện thoại
+        /// </summary>
+        public string category_name
+        {
+            get
+            {
+                Category category = Category.FindById(category_id);
+
+                return category.name;
+            }
+        }
+
         protected override object[] Attributes()
         {
             return new object[] { id, category_id, name, amount, price };
