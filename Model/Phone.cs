@@ -49,7 +49,6 @@ namespace Business
             }
         }
 
-
         protected override object[] Attributes()
         {
             return new object[] { id, category_id, name, amount, price };
