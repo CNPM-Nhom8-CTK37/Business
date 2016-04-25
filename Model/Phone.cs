@@ -39,15 +39,16 @@ namespace Business
         public DateTime created_at { get; }
 
         /// <summary>
-        /// Tên hãng điện thoại
+        /// Hãng điện thoại
         /// </summary>
-        public string category_name
+        public Category category
         {
             get
             {
-                return Category.FindById(category_id).name;
+                return Category.FindById(category_id);
             }
         }
+
 
         protected override object[] Attributes()
         {
