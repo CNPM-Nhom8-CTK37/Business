@@ -45,9 +45,7 @@ namespace Business
         {
             get
             {
-                Category category = Category.FindById(category_id);
-
-                return category.name;
+                return Category.FindById(category_id).name;
             }
         }
 
