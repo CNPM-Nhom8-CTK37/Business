@@ -16,7 +16,7 @@ namespace Business
         /// <summary>
         /// Họ và tên khách hàng
         /// </summary>
-        public int name { get; set; }
+        public string name { get; set; }
 
         /// <summary>
         /// Số điện thoại khách hàng
