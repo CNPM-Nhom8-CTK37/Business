@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Business
 {
-    class User : Model<User>
+    public class User : Model<User>
     {
         /// <summary>
         /// Khóa chính nhân viên
@@ -17,6 +17,16 @@ namespace Business
         /// Tên nhân viên
         /// </summary>
         public string name { get; set; }
+
+        /// <summary>
+        /// Tên tài khoản đăng nhập
+        /// </summary>
+        public string username { get; set; }
+
+        /// <summary>
+        /// Mật khẩu đăng nhập
+        /// </summary>
+        public string password { get; set; }
 
         /// <summary>
         /// Số điện thoại nhân viên
@@ -40,7 +50,7 @@ namespace Business
 
         protected override object[] Attributes()
         {
-            return new object[] { id, name, phone_number, address, birthday, position };
+            return new object[] { id, name, username, password, phone_number, address, birthday, position };
         }
     }
 }
