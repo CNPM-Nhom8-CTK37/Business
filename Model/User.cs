@@ -34,6 +34,11 @@ namespace Business
         public string phone_number { get; set; }
 
         /// <summary>
+        /// Số CMND
+        /// </summary>
+        public int identity_number { get; set; }
+
+        /// <summary>
         /// Địa chỉ nhân viên
         /// </summary>
         public string address { get; set; }
@@ -60,7 +65,7 @@ namespace Business
 
         protected override object[] Attributes()
         {
-            return new object[] { id, name, username, password, phone_number, address, birthday, position };
+            return new object[] { id, name, username, password, phone_number, identity_number, address, birthday, position };
         }
     }
 }
