@@ -48,6 +48,13 @@ namespace Business
         /// </summary>
         public string position { get; set; }
 
+        public List<Permission> permission {
+            get
+            {
+                return Permission.All().Where(permission => permission.user_id == id).ToList();
+            }
+        }
+
         protected override object[] Attributes()
         {
             return new object[] { id, name, username, password, phone_number, address, birthday, position };
