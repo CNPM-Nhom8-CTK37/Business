@@ -48,6 +48,9 @@ namespace Business
         /// </summary>
         public string position { get; set; }
 
+        /// <summary>
+        /// Quyền sử dụng của nhân viên
+        /// </summary>
         public List<Permission> permission {
             get
             {
