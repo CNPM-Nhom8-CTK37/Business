@@ -23,14 +23,9 @@ namespace Business
         /// </summary>
         public int menu_id { get; set; }
 
-        /// <summary>
-        /// Thời điểm kích hoạt
-        /// </summary>
-        public DateTime active_at { get; set; }
-
         protected override object[] Attributes()
         {
-            return new object[] { id, user_id, menu_id, active_at };
+            return new object[] { id, user_id, menu_id };
         }
     }
 }
