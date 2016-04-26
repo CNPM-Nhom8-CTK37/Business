@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Business
 {
-    public class Function : Model<Function>
+    public class Menu : Model<Menu>
     {
         /// <summary>
         /// Khóa chính của chức năng

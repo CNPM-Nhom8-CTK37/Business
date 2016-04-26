@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Business
 {
-    public class Auth : Model<Auth>
+    public class Permission : Model<Permission>
     {
         /// <summary>
         /// Khóa chính của quyền
@@ -21,7 +21,7 @@ namespace Business
         /// <summary>
         /// Khóa ngoại chức năng
         /// </summary>
-        public int function_id { get; set; }
+        public int menu_id { get; set; }
 
         /// <summary>
         /// Thời điểm kích hoạt
@@ -30,7 +30,7 @@ namespace Business
 
         protected override object[] Attributes()
         {
-            return new object[] { id, user_id, function_id, active_at };
+            return new object[] { id, user_id, menu_id, active_at };
         }
     }
 }
