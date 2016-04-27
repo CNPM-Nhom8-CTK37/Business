@@ -41,7 +41,7 @@ namespace Business
         /// <summary>
         /// Ngày mua
         /// </summary>
-        public DateTime date { get; set; }
+        public DateTime date { get; }
 
         protected override object[] Attributes()
         {
