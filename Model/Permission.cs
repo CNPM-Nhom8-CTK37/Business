@@ -19,9 +19,19 @@ namespace Business
         public int user_id { get; set; }
 
         /// <summary>
+        /// Nhân viên
+        /// </summary>
+        public User user { get { return User.FindById(user_id); } }
+
+        /// <summary>
         /// Khóa ngoại chức năng
         /// </summary>
         public int menu_id { get; set; }
+
+        /// <summary>
+        /// Chức năng
+        /// </summary>
+        public Menu menu { get {return Menu.FindById(menu_id); } }
 
         protected override object[] Attributes()
         {

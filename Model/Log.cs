@@ -19,6 +19,11 @@ namespace Business
         public int user_id { get; set; }
 
         /// <summary>
+        /// Nhân viên thực hiện
+        /// </summary>
+        public User user { get { return User.FindById(user_id); } }
+
+        /// <summary>
         /// Hành động
         /// </summary>
         public string action { get; set; }

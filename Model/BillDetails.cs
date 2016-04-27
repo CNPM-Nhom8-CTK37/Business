@@ -19,9 +19,19 @@ namespace Business
         public int bill_id { get; set; }
 
         /// <summary>
+        /// Khóa đơn cha
+        /// </summary>
+        public Bill bill { get { return Bill.FindById(bill_id); } }
+
+        /// <summary>
         /// Khóa ngoại điện thoại
         /// </summary>
         public int phone_id { get; set; }
+
+        /// <summary>
+        /// Điện thoại
+        /// </summary>
+        public Phone phone { get { return Phone.FindById(phone_id); } }
 
         /// <summary>
         /// Số lượng

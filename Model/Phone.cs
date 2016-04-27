@@ -19,6 +19,11 @@ namespace Business
         public int category_id { get; set; }
 
         /// <summary>
+        /// Hãng điện thoại
+        /// </summary>
+        public Category category { get { return Category.FindById(category_id); } }
+
+        /// <summary>
         /// Tên điện thoại
         /// </summary>
         public string name { get; set; }
@@ -36,18 +41,7 @@ namespace Business
         /// <summary>
         /// Ngày giờ nhập điện thoại
         /// </summary>
-        public DateTime created_at { get; }
-
-        /// <summary>
-        /// Hãng điện thoại
-        /// </summary>
-        public Category category
-        {
-            get
-            {
-                return Category.FindById(category_id);
-            }
-        }
+        public DateTime created_at { get; } 
 
         protected override object[] Attributes()
         {
