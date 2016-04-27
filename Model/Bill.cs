@@ -19,9 +19,19 @@ namespace Business
         public int user_id { get; set; }
 
         /// <summary>
+        /// Nhân viên thực hiện
+        /// </summary>
+        public User user { get { return User.FindById(user_id); } }
+
+        /// <summary>
         /// id của người mua (khách hàng)
         /// </summary>
         public int customer_id { get; set; }
+
+        /// <summary>
+        /// Nhân viên thực hiện
+        /// </summary>
+        public Customer customer { get { return Customer.FindById(customer_id); } }
 
         /// <summary>
         /// Tổng giá của hóa đơn
