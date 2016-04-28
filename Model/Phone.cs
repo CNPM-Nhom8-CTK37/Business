@@ -41,7 +41,7 @@ namespace Business
         /// <summary>
         /// Ngày giờ nhập điện thoại
         /// </summary>
-        public DateTime created_at { get; } 
+        public DateTime created_at { get; set; } 
 
         protected override object[] Attributes()
         {
