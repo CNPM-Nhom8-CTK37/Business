@@ -31,7 +31,7 @@ namespace Business
         /// <summary>
         /// Số CMND khách hàng
         /// </summary>
-        public int identity_number { get; set; }
+        public double identity_number { get; set; }
 
         /// <summary>
         /// Ngày sinh khách hàng
