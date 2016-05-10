@@ -33,7 +33,7 @@ namespace Business
         /// </summary>
         protected virtual string functionSpName
         {
-            get { return GetType().Name + "_Function"; }
+            get { return tableName + "_Function"; }
         }
 
         /// <summary>
