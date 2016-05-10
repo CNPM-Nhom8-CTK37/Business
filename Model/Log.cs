@@ -31,7 +31,7 @@ namespace Business
         /// <summary>
         /// Hành động tại thời điểm
         /// </summary>
-        public DateTime created_at { get; }
+        public DateTime created_at { get; set; }
 
         protected override object[] Attributes()
         {

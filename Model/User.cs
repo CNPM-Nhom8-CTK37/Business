@@ -36,7 +36,7 @@ namespace Business
         /// <summary>
         /// Số CMND
         /// </summary>
-        public int identity_number { get; set; }
+        public double identity_number { get; set; }
 
         /// <summary>
         /// Địa chỉ nhân viên
